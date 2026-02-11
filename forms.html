@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <title>Time Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: lightgray;
+        }
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
-  
+
+<table>
+    <caption>College Time Table</caption>
+
+    <tr>
+        <th>Day / Time</th>
+        <th>9:00 - 10:00</th>
+        <th>10:00 - 11:00</th>
+        <th>11:00 - 12:00</th>
+        <th>12:00 - 1:00</th>
+        <th>2:00 - 3:00</th>
+        <th>3:00 - 4:00</th>
+    </tr>
+
+    <tr>
+        <td>Monday</td>
+        <td>Math</td>
+        <td>English</td>
+        <td>Physics</td>
+        <td rowspan="5"><b>LUNCH</b></td>
+        <td>Computer</td>
+        <td>Chemistry</td>
+    </tr>
+
+    <tr>
+        <td>Tuesday</td>
+        <td>Biology</td>
+        <td>Math</td>
+        <td>Computer</td>
+        <td>English</td>
+        <td>Physics</td>
+    </tr>
+
+    <tr>
+        <td>Wednesday</td>
+        <td>Chemistry</td>
+        <td>Biology</td>
+        <td>Math</td>
+        <td>Physics</td>
+        <td>Computer</td>
+    </tr>
+
+    <tr>
+        <td>Thursday</td>
+        <td>English</td>
+        <td>Physics</td>
+        <td>Chemistry</td>
+        <td>Math</td>
+        <td>Biology</td>
+    </tr>
+
+    <tr>
+        <td>Friday</td>
+        <td>Computer</td>
+        <td>English</td>
+        <td>Math</td>
+        <td>Chemistry</td>
+        <td>Physics</td>
+    </tr>
+
+</table>
+
 </body>
 </html>
