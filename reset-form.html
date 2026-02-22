@@ -3,21 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="shashi">
+  <meta name="keywords" content="html">
   <title>Document</title>
+  <style>
+    label {
+      display: inline-block; 
+      width: 200px;          
+      text-align: left;     
+      margin-right: 10px;    
+    }
+  </style>
 </head>
 <body>
-  <h2>Reset Password</h2>
-
-        <form>
-            <label>New Password</label>
-            <input type="password" placeholder="Enter new password" required>
-
-            <label>Confirm Password</label>
-            <input type="password" placeholder="Confirm new password" required>
-
-            <button type="submit">Update Password</button>
-        </form>
-        <p><a href="login.html">Back to Login</a></p>
+  <form>
+      <center>
+        <h2>Reset your password</h2>
+        <label for="password">Password new password :<input type="password" placeholder="enter your password"><br>
+    </label><br>
+        <label for="confirm password">Confirm Password :<input type="password" placeholder="Confirm your password"><br>
+    </label><br><br>
+    <label> <a href="LogInPage.html"><button type="button">Update</button></a><br></label>
+      </center></form>
 
 </body>
 </html>

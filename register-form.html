@@ -3,23 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="author" content="shashi">
+  <meta name="keywords" content="html">
+  <title>Register form"></form></title>
+  <style>
+  label {
+        display: inline-block; 
+        width: 150px;          
+         text-align: left;     
+         margin-right: 10px;    
+         }
+  </style>
 </head>
 <body>
   <form>
-    <label>Full Name</label>
-    <input type="text" placeholder="Enter full name" required>
-
-    <label>Email</label>
-    <input type="email" placeholder="Enter email" required>
-
-    <label>Password</label>
-    <input type="password" placeholder="Enter password" required>
-
-    <label>Confirm Password</label>
-    <input type="password" placeholder="Confirm password" required>
-
-    <button type="submit">Register</button>
+    <center>
+        <h2>Registration Page</h2>
+        <label for="Name">Name :<input type="text" placeholder="Enter Your Name"><br></label><br>
+        
+        <label for="email">Gmail ID :<input type="email" placeholder="Enter Your Gmail ID"><br>
+</label><br>
+        <label for="tel"  minlength="10" maxlength="10">Phone Number :<input type="number" placeholder="Enter your phone number"><br>
+</label><br>
+        <label for="password">Password :<input type="password" placeholder="enter your password"><br>
+</label><br>
+        <label for="confirm password">Confirm Password :<input type="password" placeholder="Confirm your password"><br>
+</label><br><center><br>
+     <a href="login-form.html"><button type="button">Register</button></a><br>
+     <a href="login-form.html">I have already account</a></center>
+      </center>
     </form>
 </body>
 </html>
