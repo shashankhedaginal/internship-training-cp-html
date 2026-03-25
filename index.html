@@ -6,6 +6,33 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <form method="post">
+    <label for="courseid">select your course</label>
+    <select name="courese" id="courseid">
+      <optgroup label="science">
+          <option value="btech">btech</option>
+          <option value="bsc">bsc</option>
+      </optgroup>
+      <optgroup label="commerse">
+          <option value="bca">bca</option>
+          <option value="mca">mca</option>
+      </optgroup>
+      
+      <optgroup label="humanities">
+          <option value="ba">ba</option>
+      </optgroup>
+      <label for="subjectsid">subjects</label>
+      <select name="subjects" id="subjectid" multiple>
+        <option value="cs">cs</option>
+        <option>dbms</option>
+        <option>os</option>
+        <option>web</option>
+        <option>data structure</option>
+        <option>java</option>
+        <option>python</option>
+      
+      </select>
+    </select>
+  </form>
 </body>
 </html>
